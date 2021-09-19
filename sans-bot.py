@@ -25,7 +25,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
   msg = message.content
-  if(msg == '!와' or msg == '!WA' or msg == "!wa"):
+  if(msg == '!와' or msg == '!WA' or msg == "!wa" or msg == "!わ"):
       await message.channel.send('https://tenor.com/view/sans-undertale-dance-gif-12730380')
 
 client.run(client.run(os.environ['token']))
