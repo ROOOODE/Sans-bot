@@ -26,6 +26,6 @@ async def on_ready():
 async def on_message(message):
   msg = message.content
   if(msg == '!와' or msg == '!WA' or msg == "!wa" or msg == "!わ" or msg == "!ワ"):
-      await message.channel.send('https://cdn.discordapp.com/attachments/885514378387030066/891970880513658910/215.gif')
+      await message.channel.send('https://tenor.com/view/sans-undertale-dance-gif-12730380')
 
 client.run(client.run(os.environ['token']))
