@@ -27,11 +27,7 @@ async def on_message(message):
   msg = message.content
   if(msg == '!와' or msg == '!WA' or msg == "!wa" or msg == "!わ" or msg == "!ワ"):
       await message.channel.send('https://cdn.discordapp.com/attachments/885514378387030066/891970880513658910/215.gif')
-
-@client.event
-async def on_message(message):
-  msg = message.content
-  if(msg == '!panik' or msg == '!PANIK' or msg == "!패닉" or msg == "!omg" or msg == "!OMG"):
+  elif(msg == '!panik' or msg == '!PANIK' or msg == "!패닉" or msg == "!omg" or msg == "!OMG"):
       await message.channel.send('https://cdn.discordapp.com/attachments/885514378387030066/914497604887396392/kerbal-space-program_2.gif')
 
 client.run(client.run(os.environ['token']))
