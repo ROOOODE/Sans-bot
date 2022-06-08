@@ -29,5 +29,7 @@ async def on_message(message):
       await message.channel.send('https://cdn.discordapp.com/attachments/885514378387030066/891970880513658910/215.gif')
   elif(msg == '!panik' or msg == '!PANIK' or msg == "!패닉" or msg == "!omg" or msg == "!OMG"):
       await message.channel.send('https://cdn.discordapp.com/attachments/885514378387030066/914497604887396392/kerbal-space-program_2.gif')
+  elif(msg == '!done' or msg == '!done!' or msg == '!Done' or msg == '!Done!' or msg == '!DONE' or msg == '!DONE!'):
+      await message.channel.send('https://cdn.discordapp.com/attachments/726466859456659556/788405158442303508/Z.png')
 
 client.run(client.run(os.environ['token']))
